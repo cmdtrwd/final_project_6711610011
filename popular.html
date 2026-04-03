@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safeplanet | Dreamy Indie Pop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">SAFEPLANET</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="popular.html">Popular Song</a></li>
+                <li><a href="Artist.html">Artist</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== FEATURED TRACKS SECTION ===== -->
+    <section class="featured-section">
+        <div class="container">
+
+            <div class="section-header">
+               
+                <h2>Songs You'll Love</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="scroll-wrapper" id="scrollWrapper">
+                <div class="scroll-track" id="scrollTrack">
+
+                    <div class="song-card" data-title="พริบตา (The wind)"
+                        data-artist="Safeplanet">
+                        
+                        <div class="song-cover">
+                            <img src="img/song1.jpg"
+                                alt="พริบตา (The wind)">
+                            <div class="song-play-overlay">
+                               
+                            </div>
+                        </div>
+                        <div class="song-meta">
+                            <h3>พริบตา (The wind)</h3><span>Safeplanet · 2019</span>
+                        </div>
+                    </div>
+
+                    <div class="song-card" data-title="เพียงเธอ (Always)"
+                        data-artist="Safeplanet">
+                        <div class="song-cover">
+                            <img src="img/song2.jpg"
+                                alt="เพียงเธอ (Always)">
+                            <div class="song-play-overlay">
+                
+                            </div>
+                        </div>
+                        <div class="song-meta">
+                            <h3>เพียงเธอ (Always)</h3><span>Safeplanet · 2019</span>
+                        </div>
+                    </div>
+
+                    <div class="song-card" data-title="โลกใบใหม่ (New World)"
+                        data-artist="Safeplanet">
+                        <div class="song-cover">
+                            <img src="img/song4.jpg"
+                                alt="โลกใบใหม่ (New World)">
+                            <div class="song-play-overlay">
+                                
+                            </div>
+                        </div>
+                        <div class="song-meta">
+                            <h3>โลกใบใหม่ (New World)</h3><span>Safeplanet · 2022</span>
+                        </div>
+                    </div>
+
+                    <div class="song-card" data-title="Daydream"
+                        data-artist="Safeplanet">
+                        <div class="song-cover">
+                            <img src="img/song3.jpg"
+                                alt="Daydream">
+                            <div class="song-play-overlay">
+                               
+                            </div>
+                        </div>
+                        <div class="song-meta">
+                            <h3>Daydream</h3><span>Safeplanet · 2023</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== VIDEO MODAL ===== -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-box">
+            <div class="modal-header">
+                <span class="modal-title" id="modalTitle">Song Title</span>
+                <button class="modal-close" id="modalClose">✕</button>
+            </div>
+            <div class="modal-video">
+                <iframe id="modalIframe" src="" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="modal-footer">
+                <span class="modal-artist" id="modalArtist"></span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- ===== ALBUM SECTION ===== -->
+    <section class="album-section">
+        <div class="container">
+            <div class="section-header album-section-header">
+                
+                <h2>Album</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="album-cards" id="albumCards">
+                <div class="album-card active" data-title="Safeboys">
+                    <img src="img/pop1.jpg" alt="Safeboys">
+                    <span class="album-caption">Safeboys · 2019</span>
+                </div>
+                <div class="album-card" data-title="Cap, Capo, Cigarettes">
+                    <img src="img/alb2.webp" alt="Cap, Capo, Cigarettes">
+                    <span class="album-caption">Cap, Capo, Cigarettes & Beer · 2022-2023</span>
+                </div>
+                <div class="album-card" data-title="THE WAIT8">
+                    <img src="img/alb3.jpg" alt="THE WAIT8">
+                    <span class="album-caption">THE WAIT8  · (Live In Space Session)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container footer-content">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Navigation</h3>
+                    <a href="index.html">Home</a>
+                    <a href="popular.html">Popular Song</a>
+                    <a href="Artist.html">Artist</a>
+                    <a href="#">Contact</a>
+
+                </div>
+                <div class="footer-col">
+                    <h3>About</h3>
+                    <a href="#">Home</a>
+                    <a href="#">Popular Song</a>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow</h3>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Safeplanet. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/script.js"></script>
+    <script>
+      // ===== ALBUM ACCORDION =====
+      const albumCards = document.querySelectorAll('.album-card');
+      albumCards.forEach(card => {
+        card.addEventListener('click', () => {
+          albumCards.forEach(c => c.classList.remove('active'));
+          card.classList.add('active');
+        });
+      });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safeplanet | Artist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">SAFEPLANET</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="popular.html">Popular Song</a></li>
+        <li><a href="Artist.html">Artist</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== ARTIST HERO — full viewport ===== -->
+  <section class="artist-hero-section">
+
+    <!-- Background image fills entire section -->
+    <div class="artist-hero-bg">
+      <img src="img/art2.avif" alt="Safeplanet Band">
+    </div>
+
+    <!-- Dark overlay -->
+    <div class="artist-hero-overlay"></div>
+
+    <!-- Text — right-aligned -->
+    <div class="artist-hero-content">
+      <span class="artist-hero-tag">Artist</span>
+      <h1 class="glow-text">Artist</h1>
+      <p>Dreamy soundscapes woven from reverb-soaked guitars and melancholic vocals.</p>
+    </div>
+
+    <!-- Thumbnail buttons — bottom right, click to change background -->
+    <div class="artist-hero-thumbs">
+      <button class="thumb-btn active" 
+        data-bg="img/art2.avif" 
+        data-img="img/art2.avif">
+        <img src="img/art2.avif" alt="Stage">
+      </button>
+      <button class="thumb-btn" data-bg="img/art4.webp" 
+        data-img="img/art4.webp">
+        <img src="img/art4.webp" alt="Stage">
+      </button>
+      <button class="thumb-btn" data-bg="img/art3.jpg" 
+        data-img="img/art3.jpg">
+        <img src="img/art3.jpg" alt="Stage">
+      </button>
+    </div>
+
+
+  </section>
+
+  <section id="songs" class="songs-section hidden">
+    <div class="container">
+
+      <div class="songs-grid">
+        <div class="song-card">
+          <div class="album-cover">
+            <img src="img/art5.png" alt="album cover">
+          </div>
+          <div class="song-info">
+            <h3>Thitipat Arthachinda - Alien</h3>
+            <p>Lead Vocals - guitarist</p>
+          </div>
+          <!--button class="play-btn">▶</button-->
+        </div>
+        <div class="song-card">
+          <div class="album-cover">
+            <img src="img/A1.png" alt="album cover">
+          </div>
+          <div class="song-info">
+            <h3>Aphiwich Khamfoo - Doi</h3>
+            <p>Drummer</p>
+          </div>
+          <!--button class="play-btn">▶</button-->
+        </div>
+        <div class="song-card">
+          <div class="album-cover">
+            <img src="img/A2.jpg" alt="album cover">
+          </div>
+          <div class="song-info">
+            <h3>Chayapan Chantranuson - Yee</h3>
+            <p>Bassist (former member)</p>
+          </div>
+          <!--button class="play-btn">▶</button-->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MUSIC STYLE ===== -->
+  <section class="music-style-section hidden">
+    <div class="container">
+      <div class="section-label-row">
+        <h2>Music style</h2>
+      </div>
+      <div class="music-style-card">
+        <p>
+          Safeplanet crafts a signature sound that sits at the intersection of dreamy indie pop and
+          ethereal shoegaze. Their music is defined by lush, reverb-soaked guitar layers that weave
+          together with soft-spoken vocals and hazy, cinematic production. Drawing inspiration from
+          artists like Beach House, Cigarettes After Sex, and Slowdive, Safeplanet creates an
+          immersive soundscape that feels both nostalgic and otherworldly. Each track is a journey
+          through introspective emotion, designed to transport listeners to a tranquil, starlit
+          universe far from the noise of everyday life.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT BAND ===== -->
+  <section class="about-artist-section hidden">
+    <div class="container">
+      <div class="section-label-row">
+        <h2>About band</h2>
+      </div>
+      <div class="artist-photos-grid">
+        <div class="artist-photo-card">
+          <img src="img/A3.jpg" alt="Band member">
+        </div>
+        <div class="artist-photo-card">
+          <img src="img/A4.jpg" alt="Band in studio">
+        </div>
+      </div>
+      <div class="artist-bio-card">
+        <p>
+          Formed in Bangkok in 2018, Safeplanet is a four-piece indie pop band that has quietly
+          become one of Thailand's most beloved underground acts. The band — comprising vocalist
+          Mint, guitarist Fluke, bassist Ploy, and drummer Bank — began their journey writing songs
+          in a small rehearsal studio in Ladprao, channeling their shared love of British dream pop
+          into something entirely their own. Their debut EP <em>Drifting</em> (2020) gained a
+          devoted following online, praised for its delicate production and emotionally honest
+          lyricism. Since then, Safeplanet has grown steadily, performing at major festivals
+          including CAT Expo and Big Mountain, and releasing their full-length album
+          <em>Somewhere Soft</em> in 2023 to widespread critical acclaim.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="contact">
+    <div class="container footer-content">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>Navigation</h3>
+          <a href="index.html">Home</a>
+          <a href="popular.html">Popular Song</a>
+          <a href="Artist.html">Artist</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h3>About</h3>
+          <a href="#">Home</a>
+          <a href="#">Popular Song</a>
+        </div>
+        <div class="footer-col">
+          <h3>Follow</h3>
+          <div class="social-icons">
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Safeplanet. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    // ===== THUMBNAIL → BACKGROUND SWITCH =====
+    const heroBgImg = document.querySelector('.artist-hero-bg img');
+    const thumbBtns = document.querySelectorAll('.thumb-btn');
+
+    thumbBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (btn.classList.contains('active')) return;
+
+        // Fade out
+        heroBgImg.style.transition = 'opacity 0.45s ease';
+        heroBgImg.style.opacity = '0';
+
+        setTimeout(() => {
+          heroBgImg.src = btn.dataset.bg;
+          heroBgImg.style.opacity = '1';
+        }, 280);
+
+        // Mark active
+        thumbBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      });
+    });
+  </script>
+</body>
+
+</html>
